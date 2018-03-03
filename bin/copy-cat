@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'copy-cat'
+
+copy_cat = CopyCat.new :base_url => ARGV[0] || "http://localhost:8000"
+copy_cat.start_server
