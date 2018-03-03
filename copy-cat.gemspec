@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
     s.name        = 'copy-cat'
     s.version     = '0.0.0'
-    s.date        = '2010-04-28'
+    s.date        = '2017-03-03'
     s.summary     = "Meow !!!"
     s.description = "King cat"
     s.authors     = ["Sudhir Shrestha"]
@@ -12,7 +12,6 @@ Gem::Specification.new do |s|
     s.add_runtime_dependency "vcr", "~> 4.0", ">= 4.0.0"
     s.add_runtime_dependency "sinatra", "~> 2.0", ">= 2.0.1"
 
-    s.homepage    =
-      'http://rubygems.org/gems/hola'
-    s.license       = 'MIT'
+    s.homepage    = 'https://github.com/sudhirt4/ruby-copy-cat'
+    s.license     = 'MIT'
   end
