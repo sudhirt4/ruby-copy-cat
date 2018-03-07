@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
     s.name        = 'copy-cat'
-    s.version     = '0.0.1'
+    s.version     = '0.0.2'
     s.date        = '2017-03-03'
     s.summary     = "Meow !!!"
     s.description = "King cat"
