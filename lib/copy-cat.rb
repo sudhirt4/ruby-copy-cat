@@ -12,6 +12,7 @@ class CopyCatServer < Sinatra::Base
 
     VCR.configure do |config|
       config.cassette_library_dir = settings.cassette_library_dir
+      config.hook_into :webmock
     end
 
     content_type :json
